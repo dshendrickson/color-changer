@@ -2,10 +2,6 @@
 
 html body {
   box-sizing: border-box;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  /* font weigh of 700 is the same as bold accordint to http://www.w3schools.com/cssref/pr_font_weight.asp */
-  font-weight: 700;
   margin: 0;
 }
 
@@ -18,4 +14,34 @@ html body {
   justify-content: center;
   margin: auto;
   width: 100vw;
+}
+
+.btn {
+  background: #E5B6D5;
+  border-bottom: 2px solid #B2479A;
+  border-left: 2px solid #CC7FB5;
+  border-right: 2px solid #CC7FB5;
+  border-top: 2px solid #B2479A;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  /* font weigh of 700 is the same as bold accordint to http://www.w3schools.com/cssref/pr_font_weight.asp */
+  font-weight: 700;
+  height: 25px;
+  width: 75px;
+}
+
+.btn:hover {
+  background: #B2479A;
+  border-bottom: 2px solid #CC7FB5;
+  border-left: 2px solid #B2479A;
+  border-right: 2px solid #B2479A;
+  border-top: 2px solid #CC7FB5;
+}
+
+.btn-random {
+  margin-right: 10px;
+}
+
+.btn-reset {
+  margin-left: 10px;
 }
