@@ -18,30 +18,36 @@ html body {
 
 .btn {
   background: #E5B6D5;
-  border-bottom: 2px solid #B2479A;
-  border-left: 2px solid #CC7FB5;
-  border-right: 2px solid #CC7FB5;
-  border-top: 2px solid #B2479A;
+  border-bottom: 5px solid #B2479A;
+  border-left: 5px solid #CC7FB5;
+  border-right: 5px solid #CC7FB5;
+  border-top: 5px solid #B2479A;
   color: white;
   font-family: 'Open Sans', sans-serif;
   /* font weigh of 700 is the same as bold accordint to http://www.w3schools.com/cssref/pr_font_weight.asp */
   font-weight: 700;
-  height: 25px;
-  width: 75px;
+  height: 42px;
+  letter-spacing: 1px;
+  margin: 10px;
+  width: 84px;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .btn:hover {
   background: #B2479A;
-  border-bottom: 2px solid #CC7FB5;
-  border-left: 2px solid #B2479A;
-  border-right: 2px solid #B2479A;
-  border-top: 2px solid #CC7FB5;
+  border-bottom: 4px solid #CC7FB5;
+  border-left: 4px solid #E5B6D5;
+  border-right: 4px solid #E5B6D5;
+  border-top: 4px solid #CC7FB5;
 }
 
 .btn-random {
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
 
 .btn-reset {
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
