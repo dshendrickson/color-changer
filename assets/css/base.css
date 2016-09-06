@@ -1,7 +1,6 @@
 /** General **/
 
 html body {
-  background: magenta;
   box-sizing: border-box;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -12,8 +11,11 @@ html body {
 
 .container {
   align-items: center;
+  border: 2px dashed aqua;
   box-sizing: inherit;
   display: flex;
+  height: 100vh;
   justify-content: center;
   margin: auto;
+  width: 100vw;
 }

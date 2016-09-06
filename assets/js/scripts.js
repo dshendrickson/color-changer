@@ -2,9 +2,7 @@
 function getRandomColor() {
   var color = '#FFFFFF';
   while (color === '#FFFFFF') {
-    debugger;
     color = generateRandomColor();
-    debugger;
   }
   return color;
 };
@@ -22,7 +20,10 @@ function generateRandomColor() {
 //*** Events ***//
 
 $('.btn-random').on('click', function () {
-  debugger;
   var color = getRandomColor();
   $('.container').css('background', color);
 });
+
+$('.btn-reset').on('click', function () {
+  $('.container').css('background', '#FFFFFF');
+})
