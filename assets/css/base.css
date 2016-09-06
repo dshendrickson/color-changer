@@ -5,6 +5,7 @@ html body {
   box-sizing: border-box;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  /* font weigh of 700 is the same as bold accordint to http://www.w3schools.com/cssref/pr_font_weight.asp */
   font-weight: 700;
   margin: 0;
 }
