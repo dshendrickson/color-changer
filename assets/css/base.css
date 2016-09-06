@@ -1,7 +1,7 @@
 /** General **/
 
 html body {
-  background: #FFFFFF;
+  background: magenta;
   box-sizing: border-box;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -11,5 +11,9 @@ html body {
 }
 
 .container {
+  align-items: center;
   box-sizing: inherit;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
