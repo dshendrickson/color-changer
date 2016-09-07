@@ -1,20 +1,20 @@
-@media screen and (max-width: 450px) {
+/*
+* ? The max-width below seems to reflect half the value
+* that makes the change in the layout.  Why?
+*/
+
+@media screen and (max-width: 418px) {
   .container {
     flex-direction: column;
     margin: 0 auto;
   }
 
+  .btn {
+    padding: 0
+  }
   .btn-reset {
     font-size: xx-small;
-    /*font-size-adjust: 0.5;*/
     height: 25px;
     padding-top: 0;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .container {
-    /*flex-direction: column;*/
-    /*margin: 0 auto;*/
   }
 }
