@@ -6,15 +6,22 @@
 @media screen and (max-width: 418px) {
   .container {
     flex-direction: column;
+    height: 85vh;
     margin: 0 auto;
+
   }
 
-  .btn {
-    padding: 0
-  }
   .btn-reset {
-    font-size: xx-small;
-    height: 25px;
+    border-bottom: 5px solid #B2479A;
+    border-top: 5px solid #B2479A;
+    font-size: medium;
+    height: 42px;
     padding-top: 0;
+  }
+
+  .btn-reset:hover {
+    background: #B2479A;
+    border-bottom: 5px solid #CC7FB5;
+    border-top: 5px solid #CC7FB5;
   }
 }
