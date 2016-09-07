@@ -1,0 +1,24 @@
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .btn-reset {
+    font-size: xx-small;
+    /*font-size-adjust: 0.5;*/
+    height: 25px;
+    padding-top: 0;
+
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    /*flex-direction: column;*/
+    /*margin: 0 auto;*/
+  }
+
+}

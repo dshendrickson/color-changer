@@ -29,6 +29,7 @@ html body {
   height: 42px;
   letter-spacing: 1px;
   margin: 10px;
+  padding: 0;
   width: 84px;
 }
 
@@ -38,10 +39,10 @@ html body {
 
 .btn:hover {
   background: #B2479A;
-  border-bottom: 4px solid #CC7FB5;
-  border-left: 4px solid #E5B6D5;
-  border-right: 4px solid #E5B6D5;
-  border-top: 4px solid #CC7FB5;
+  border-bottom: 5px solid #CC7FB5;
+  border-left: 5px solid #E5B6D5;
+  border-right: 5px solid #E5B6D5;
+  border-top: 5px solid #CC7FB5;
 }
 
 .btn-random {
